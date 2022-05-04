@@ -5,9 +5,9 @@ export default function DisplayPost() {
 
     return (
         <div>
-            <h3>This is the table to display posts.</h3>
-            <Post />
-            <Post />
+            
+            <Post/>
+            {/* <Post/> */}
         </div>
     )
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DisplayPost from './components/DisplayPosts';
 import NavBar from './components/Navbar';
 // import Post from './components/post';
-// import AddPost from './components/AddPost';
+import AddPost from './components/AddPost';
 
 function App() {
 
@@ -11,7 +11,8 @@ function App() {
   return (
     <div>
       <NavBar/>
-      <DisplayPost />
+      <AddPost/>
+      <DisplayPost/>
     </div>
   );
 }
