@@ -1,13 +1,19 @@
-import React from  'react'
-import Post from './Post'
+import React from 'react'
 
-export default function DisplayPost() {
+const DisplayPost = (posts) => {
+
+    const displayFeed = posts.map((posts) => 
+        
+            <li>{posts}</li>
+         
+        
+    )
 
     return (
         <div>
-            
-            <Post/>
-            {/* <Post/> */}
+           <ul>{displayFeed}</ul>
         </div>
     )
 }
+
+export default DisplayPost;
